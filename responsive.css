@@ -1,0 +1,210 @@
+/* Tablet */
+@media(max-width: 1000px) {
+
+    /* HEADER */
+    header .container .navbar {
+        display: none;
+    }
+
+    header .container .menu-icon {
+        display: block;
+    }
+
+    /* END OF HEADER */
+
+    /* JUMBOTRON */
+    .jumbotron .container .description {
+        padding-right: 0px;
+        text-align: center;
+        flex: 100%;
+        order: 2;
+    }
+
+    .jumbotron .container .image {
+        text-align: center;
+        flex: 100%;
+        order: 1;
+    }
+
+    .jumbotron .container .image img {
+        width: 90%;
+    }
+
+    /* END OF JUMBOTRON */
+
+    /* OUR SERVICE */
+    .main-content .container .services {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .main-content .container .services .service {
+        width: 45%;
+    }
+
+    .main-content .container .services .center {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .main-content .container .services .left {
+        margin-right: 35px;
+    }
+
+    #information .flex, #mobile-apps .flex {
+        display: block;
+    }
+
+    #information .img, #mobile-apps .img {
+        width: 100%;
+        padding: 0 100px;
+    }
+
+    #information .text, #mobile-apps .text {
+        width: 100%;
+        text-align: center;
+        padding: 0 100px
+    }
+
+    #information .heading2, #mobile-apps .heading2 {
+        font-size: 32px;
+        line-height: 52px;
+    }
+
+    #information .heading2::after, #mobile-apps .heading2::after {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #information .padd, #mobile-apps .padd {
+        margin-bottom: 26px;
+    }
+
+    #information .desc, #mobile-apps .desc {
+        font-size: 16px;
+        line-height: 160%;
+    }
+
+    /* END OF OUR SERVICE */
+
+    /* TESTIMONIES */
+
+    .testimonial {
+        width: 90%;
+        height: 550px;
+        margin: 0px auto;
+        margin-bottom: 100px;
+    }
+
+    .testimonial .container .testimoni {
+        flex-direction: column;
+        flex: 100%;
+    }
+
+    .testimonial .container .test-heading {
+        margin-bottom: 30px;
+    }
+
+    .testimonial .container .komen {
+        flex: 100%;
+    }
+
+    .testimonial .container .komen p {
+        text-align: center;
+    }
+
+    .testimonial .container .testimoni .nama .posisi {
+        text-align: center;
+    }
+
+    /* Check out our latest article */
+    .latest-article .articles {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .latest-article .articles .article {
+        width: 40%;
+        margin: 20px;
+        height: 430px;
+    }
+
+    .latest-article .article-title::after {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    /* end of Check out our latest article */
+
+    /*  footer */
+    .fo {
+        width: 25%;
+    }
+
+    .main-footer h3, .main-footer p {
+        text-align: center;
+    } 
+
+    footer li {
+        line-height: 30px;
+    }
+}
+
+/* Mobile */
+@media(max-width: 671px) {
+
+    /* OUR SERVICE */
+    .main-content .container .services {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .main-content .container .services .service {
+        width: 100%;
+    }
+
+    .main-content .container .services .center {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .main-content .container .services .left {
+        margin-right: 0px;
+    }
+
+    #information .img, #mobile-apps .img {
+        padding: 0 30px;
+    }
+
+    #information .text, #mobile-apps .text {
+        padding: 0 30px
+    }
+
+    /* END OF OUR SERVICE */
+
+    /* TESTIMONIES */
+
+    .testimonial {
+        width: 70%;
+        height: 600px;
+        margin: 0px auto;
+        margin-bottom: 100px;
+    }
+
+    .testimonial .container .komen p {
+        font-size: 14px;
+    }
+
+    /* Check out our latest article */
+    .latest-article .articles .article {
+        width: 60%;
+        height: 450px;
+    }
+
+    /* end of Check out our latest article */
+
+    /*  footer */
+    .fo {
+        width: 25%;
+    }
+}

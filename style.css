@@ -1,0 +1,556 @@
+/* JANGAN DIHAPUS YA! KALAU MAU ADA YANG DITAMBAHI GAPAPA */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    min-width: 450px;
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.main-content {
+    margin-top: 100px;
+    background-image: url("img/bg-element.jpg");
+    background-repeat: no-repeat;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0px 42px;
+    margin-top: 10px;
+    border-radius: 55px;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 42px;
+    font-weight: 700;
+}
+
+/* JANGAN DIHAPUS YA SAMPE SINI */
+
+/* HEADER */
+header {
+    background-color: white;
+    line-height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+}
+
+header .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container .navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header .container .navbar ul li {
+    list-style: none;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+header .container .navbar ul li:hover {
+    color: #458FF6;
+    cursor: pointer;
+}
+
+header .container .navbar ul li:active {
+    color: #fa99d1;
+}
+
+header .container .menu-icon {
+    padding: 15px 0px;
+    font-size: 23px;
+    display: none;
+}
+
+/* END OF HEADER */
+
+/* JUMBOTRON */
+.jumbotron {
+    margin-top: 80px;
+}
+
+.jumbotron .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.jumbotron .container .description {
+    flex: 45%;
+    padding-right: 25px;
+}
+
+.jumbotron .container .description h1 {
+    font-weight: 700;
+    font-size: 36px;
+
+}
+
+.jumbotron .container .description p {
+    color: #7D7987;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.jumbotron .container .description .fill {
+    color: white;
+    background-color: #458FF6;
+}
+
+.jumbotron .container .description .fill:hover {
+    background-color: #fa99d1;
+}
+
+.jumbotron .container .image {
+    flex: 55%;
+}
+
+.jumbotron .container .image img {
+    width: 100%;
+}
+
+/* END OF JUMBOTRON */
+
+/* OUR SERVICE */
+.main-content .container .service-desc {
+    text-align: center;
+}
+
+.main-content .container .service-desc h2 {
+    display: inline;
+    padding-bottom: 30px;
+    border-bottom: 3px solid black;
+}
+
+.main-content .container .service-desc p {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 65px;
+    margin-bottom: 35px;
+    color: #7D7987;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.main-content .container .services {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content .container .services .service {
+    box-shadow: 5px 5px 10px 10px rgba(245, 245, 245, 0.3);
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 35px;
+    text-align: center;
+    height: 280px;
+    padding: 35px;
+    width: 30%;
+}
+
+.main-content .container .services .service h3 {
+    color: black;
+}
+
+
+.main-content .container .services .service p {
+    margin: 0;
+    font-size: 12px;
+    color: #7D7987;
+}
+
+.main-content .container .services .center {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.main-content .container .services .service:hover {
+    box-shadow: none;
+    border: 5px solid #458FF6;
+    cursor: pointer;
+}
+
+.main-content .container .services .service:active {
+    box-shadow: none;
+    border: 5px solid #fa99d1;
+    cursor: pointer;
+}
+
+.main-content .container .services .unfill {
+    color: #458FF6;
+    background-color: white;
+    border: 1px solid #458FF6;
+}
+
+.main-content .container .services .unfill:hover {
+    color: white;
+    background-color: #458FF6;
+}
+
+/* END OF OUR SERVICE */
+
+/* healtcare & mobile app*/
+#information {
+    margin-top: 150px;
+}
+
+#mobile-apps {
+    margin: 150px 0;
+}
+
+#information .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mobile-apps .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+#information .img, #mobile-apps .img {
+    width: 55%;
+    padding: 0 20px;
+}
+
+#information .text, #mobile-apps .text {
+    width: 45%;
+    padding: 0 34px 0 68px;
+}
+
+#information .img img, #mobile-apps .img img {
+    width: 100%;
+}
+
+#information .heading2, #mobile-apps .heading2 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    transition: .3s ease-in-out;
+}
+
+#information .heading2::after, #mobile-apps .heading2::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 56px;
+    background: black;
+    border-radius: 10px;
+    margin-top: 26px;
+    opacity: 0.8;
+}
+
+#information .desc, #mobile-apps .desc {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+#information .padd, #mobile-apps .padd {
+    padding-right: 4%;
+    margin-bottom: 36px;
+}
+
+#information .btn__, #mobile-apps .btn__ {
+    background: transparent;
+    border: 1px solid #458FF6;
+    padding: 0 42px;
+    color: #458FF6;
+    border-radius: 55px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 42px;
+    display: inline-block;
+}
+
+#information .btn__:hover, #mobile-apps .btn__:hover {
+    color: white;
+    border: 1px solid transparent;
+    background: #458FF6;
+}
+
+.fa-arrow-down {
+    animation: bounce 2s ease-in-out infinite;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(-6px);
+    }
+
+    50% {
+        transform: translateY(0px);
+    }
+}
+
+/* Testimoni */
+.testimonial {
+    min-width: 450px;
+    width: 90%;
+    height: 400px;
+    margin: 100px auto;
+    background: linear-gradient(#67C3F3, #5A98F2);
+    border-radius: 25px;
+    color: white;
+}
+
+.testimonial .container {
+    height: 100%;
+    margin: auto 0px;
+    padding: 0px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.testimonial .container .test-heading {
+    flex: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.testimonial .container .test-heading .garis {
+    border-bottom: 3px solid white;
+    width: 5%;
+    margin: 0 auto;
+}
+
+.testimonial .container .testimoni {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    flex: 45%;
+}
+
+.testimonial .container .testimoni .foto {
+    flex: 40%;
+}
+
+.testimonial .container .testimoni .foto img {
+    border-radius: 100%;
+    width: 130px;
+    height: 130px;
+    border: 3px solid white;
+    text-align: center;
+}
+
+.testimonial .container .testimoni .nama {
+    flex: 60%;
+    text-align: left;
+}
+
+.testimonial .container .komen {
+    flex: 35%;
+}
+
+.testimonial .container .komen p {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+    width: 100%;
+    text-align: left;
+}
+
+.testimonial .container .testimoni .nama .full-name {
+    font-size: 18px;
+}
+
+.testimonial .container .testimoni .nama .posisi {
+    font-size: 12px;
+}
+
+/* Akhir Testimoni */
+
+/* Check out our latest article  */
+.latest-article {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    transition: all 0.5s;
+    width: 100%;
+}
+
+.article-title {
+    text-align: center;
+}
+
+.latest-article .articles {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.latest-article .articles .article {
+    width: 24%;
+    height: 400px;
+    border-radius: 20px;
+    background-color: rgb(247, 241, 241);
+}
+
+.latest-article .article-title::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 56px;
+    background: black;
+    border-radius: 10px;
+    margin: 18px 0 45px 530px;
+    opacity: 0.8;
+}
+
+.picture {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.picture:hover {
+    zoom: 1.008;
+    cursor: pointer;
+}
+
+.boxes {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+.read-more {
+    color: #458FF6;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    color: #fa99d1;
+    font-size: 18px;
+}
+
+.view {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 0px 42px;
+    margin-top: 10px;
+    border-radius: 55px;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #458FF6;
+    background-color: white;
+    border: 1px solid #458FF6;
+}
+
+.button:hover {
+    background-color: #458FF6;
+    color: white;
+}
+
+/* end of Check out our latest article  */
+
+
+/* AWAL FOOTER*/
+footer {
+    height: 432px;
+    width: 100%;
+    min-width: 450px;
+    color: white;
+    background-image: url("img/bg-footer.png");
+}
+
+.fo {
+    float: left;
+    padding-top: 80px;
+}
+
+.main-footer {
+    width: 40%;
+}
+
+.main-footer h3 a:hover {
+    color: #fa99d1;
+}
+
+.company {
+    width: 20%;
+}
+
+.region {
+    width: 20%;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul p{
+    font-weight: bold;
+}
+
+footer a {
+    color: white;
+}
+
+footer li {
+    line-height: 40px;
+}
+
+footer li a:hover {
+    color: #fa99d1;
+}
+
+/* AKHIR FOOTER*/
